@@ -2,7 +2,7 @@
 
 Thanks to yfinance it is possible to work with the dataframe of stock prices and ETFs.
 ![Apple_stocks](Apple_stock.png)
-With this dataframe we got a time series problem. It was tested GRU and LSTM layers for this solution after a preliminary testing these two types performed the best.
+With this dataframe we got a time series problem. It was tested GRU and LSTM layers for this solution after a preliminary testing these two layer types performed the best.
 
 Using a LSTM Bidirectional layer followed by dense relu layer and the output dense layer its possible to achieve root mean squared error is 3.58 and mean absolute error is 2.78.
 
